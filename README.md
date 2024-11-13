@@ -18,10 +18,44 @@ A partir de esta aclaración, es posible representar una función de transferenc
 
 $$y_{k} = [Numerador][X_{n}(k)]$$
 
-** Explicación
 * Si se tiene la función:
 
 $$ G_{(z)} = \frac{b_{0}z^{n} {\color{Green}+ b_{1}}z^{n-1} + \cdots {\color{Green}+ b_{n-1}}z {\color{Green}+ b_{n}}}{z^{n} {\color{Green}+ a_{1}}z^{n-1} + \cdots {\color{Green}+ a_{n-1}}z {\color{Green}+ a_{n}}} $$
+
+A partir de la función de transferencia previamente obtenida, se puede determinar la forma canónica controlable de la siguiente manera:
+
+$$ x_1(k+1) $$
+$$ x_2(k+1) \\ $$
+$$ \vdots \\ $$
+$$ x_{n-1}(k+1) \\ $$
+$$ x_n(k+1) $$
+=
+\begin{bmatrix}
+0 & 1 & 0 & \cdots & 0 \\
+0 & 0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+0 & 0 & 0 & \cdots & 1 \\
+-a_n & -a_{n-1} & -a_{n-2} & \cdots & -a_1
+\end{bmatrix}
+\begin{bmatrix}
+x_1(k) \\
+x_2(k) \\
+\vdots \\
+x_{n-1}(k) \\
+x_n(k)
+\end{bmatrix}
++
+\begin{bmatrix}
+0 \\
+0 \\
+\vdots \\
+0 \\
+1
+\end{bmatrix}
+u(k)
+
+
+
 
 
 
