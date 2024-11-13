@@ -8,6 +8,12 @@ Se considera una función de transferencia si tiene la siguiente estructura:
 
 $$G_{(z)} = \frac{b_{0}z^{n} + b_{1}z^{n-1} + \cdots + b_{n-1}z + b_{n}}{z^{n} + a_{1}z^{n-1} + \cdots + a_{n-1}z + a_{n}}$$
 
+A partir de esta aclaración, es posible representar una función de transferencia en diferentes formas clásicas de espacio de estados. Algunas de estas formas facilitan el análisis y el diseño de sistemas y controladores.
+
+
+## Formas de Espacio de Estados 
+### Forma Canónica Controlable
+
 
 
 
