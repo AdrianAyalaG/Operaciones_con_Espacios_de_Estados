@@ -24,6 +24,37 @@ $$ G_{(z)} = \frac{b_{0}z^{n} {\color{Green}+ b_{1}}z^{n-1} + \cdots {\color{Gre
 
 A partir de la función de transferencia previamente obtenida, se puede determinar la forma canónica controlable de la siguiente manera:
 
+![Figura de prueba](Forma_Canonica_Controlable.png)
+
+Figura 1. Forma Canonica Controlable.
+
+![Figura de prueba](Forma_Canonica_Controlable_Salida.png)
+
+Figura 2. Forma Canonica Controlable - Salida.
+
+
+
+![Figura de prueba](Forma_Canonica_Observable.png)
+
+Figura 3. Forma Canonica Observable.
+
+![Figura de prueba](Forma_Canonica_Observable_Salida.png)
+
+Figura 4. Forma Canonica Observable - Salida.
+
+
+![Figura de prueba](Forma_Canonica_Diagonal.png)
+
+Figura 3. Forma Canonica Diagonal.
+
+![Figura de prueba](Forma_Canonica_Diagonal_Salida.png)
+
+Figura 4. Forma Canonica Diagonal - Salida.
+
+
+
+
+
 
 # Referencias
 [1]. “ss - Modelo de espacio de estados - MATLAB - MathWorks América Latina”, Mathworks.com. [En línea]. Disponible en: https://la.mathworks.com/help/control/ref/ss.html. [Consultado: 02-nov-2024].
