@@ -13,7 +13,15 @@ A partir de esta aclaración, es posible representar una función de transferenc
 
 ## Formas de Espacio de Estados 
 ### Forma Canónica Controlable
+* El orden del polinomio caracteristico corresponde al número de ecuaciones del sistema.
+* En la matriz, los signo de los términos cambian y se organizan desde el término independiente hasta el mayor grado.
 
+$$y_{k} = [Numerador][X_{n}(k)]$$
+
+** Explicación
+* Si se tiene la función:
+
+$$ G_{(z)} = \frac{b_{0}z^{n} {\color{Green}+ b_{1}}z^{n-1} + \cdots {\color{Green}+ b_{n-1}}z {\color{Green}+ b_{n}}}{z^{n} {\color{Green}+ a_{1}}z^{n-1} + \cdots {\color{Green}+ a_{n-1}}z {\color{Green}+ a_{n}}} $$
 
 
 
