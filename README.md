@@ -28,11 +28,16 @@ A partir de la función de transferencia previamente obtenida, se puede determin
 
 Figura 1. Forma Canonica Controlable.
 
+Se observa el cambio de signo de las variables del denominador.
+
 ![Figura de prueba](Forma_Canonica_Controlable_Salida.png)
 
 Figura 2. Forma Canonica Controlable - Salida.
 
+Para la salida se toman los valores del numerador sin cambiar el singo y se multipla por el vector de variables de estado.
 
+
+### Forma Canónica Observable
 
 ![Figura de prueba](Forma_Canonica_Observable.png)
 
