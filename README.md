@@ -51,6 +51,7 @@ En la Figura 3 se observa que los ceros del sistema (numerador) ya no aparecen e
 
 Figura 4. Forma Canónica Observable - Salida.
 
+Toda la matriz de salida se rellena con ceros, excepto el último valor, el cual se coloca en 1.
 
 ### Forma Canónica Diagonal
 No se trabaja directamente con los coeficientes de la función de transferencia, sino que se determinan directamente los polos de la misma.
@@ -91,8 +92,10 @@ Figura 8. Forma Canónica Observable - Ejemplo.
 
 Figura 9. Forma Canónica Diagonal - Ejemplo.
 
+Al ser una función de segundo orden se obtienen matrices 2x2.
 
-
+## Espacio de Estados  a Función de Transferencia
+El proceso consiste en obtener la función de transferencia a partir de la representación en espacio de estados.
 
 
 
