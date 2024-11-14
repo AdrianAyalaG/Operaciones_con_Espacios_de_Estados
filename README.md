@@ -51,14 +51,22 @@ En la Figura 3 se observa que los ceros del sistema (numerador) ya no aparecen e
 
 Figura 4. Forma Canonica Observable - Salida.
 
+### Forma Canónica Diagonal
+No se trabaja directamente con los coeficientes de la función de transferencia, sino que se determinan directamente los polos de la misma.
 
 ![Figura de prueba](Forma_Canonica_Diagonal.png)
 
 Figura 5. Forma Canonica Diagonal.
 
+En la Figura 5, se observa que los polos deben ubicarse a lo largo de toda la diagonal. La matriz de entrada se completa con el valor 1.
+
+
 ![Figura de prueba](Forma_Canonica_Diagonal_Salida.png)
 
 Figura 6. Forma Canonica Diagonal - Salida.
+
+En la matriz de salida (Figura 6), se muestran los valores de las fracciones parciales, obtenidos a partir de la separación de los polos.
+
 
 
 
