@@ -26,30 +26,31 @@ A partir de la función de transferencia obtenida, se puede determinar la forma 
 
 ![Figura de prueba](Forma_Canonica_Controlable.png)
 
-Figura 1. Forma Canonica Controlable.
+Figura 1. Forma Canónica Controlable.
 
 Para la salida se toman los valores del numerador sin cambiar el singo y se multipla por el vector de variables de estado.
 
 ![Figura de prueba](Forma_Canonica_Controlable_Salida.png)
 
-Figura 2. Forma Canonica Controlable - Salida.
+Figura 2. Forma Canónica Controlable - Salida.
 
+En la Figura 2 se observa que los ceros del sistema (numerador) aparecen en la ecuación de salida.
 
 ### Forma Canónica Observable
-Este sistema es equivalente a la Forma Canonica Controlable.
+Este sistema es equivalente a la Forma Canónica Controlable.
 
 $$G_{(z)} = \frac{b_{0}z^{n} + {\color{Blue}b_{1}}z^{n-1} + \cdots +{\color{Blue}b_{n-1}}z + {\color{Blue}b_{n}}}{z^{n} {\color{Green}+ a_{1}}z^{n-1} + \cdots {\color{Green}+ a_{n-1}}z {\color{Green}+ a_{n}}} $$
 
 ![Figura de prueba](Forma_Canonica_Observable.png)
 
-Figura 3. Forma Canonica Observable.
+Figura 3. Forma Canónica Observable.
 
 En la Figura 3 se observa que los ceros del sistema (numerador) ya no aparecen en la ecuación de salida, sino en la ecuación de entrada.
 
-
 ![Figura de prueba](Forma_Canonica_Observable_Salida.png)
 
-Figura 4. Forma Canonica Observable - Salida.
+Figura 4. Forma Canónica Observable - Salida.
+
 
 ### Forma Canónica Diagonal
 No se trabaja directamente con los coeficientes de la función de transferencia, sino que se determinan directamente los polos de la misma.
@@ -58,18 +59,21 @@ $$ P_1 = z_1; P_2 = z_2; \cdots ; P_n = z_n$$
 
 ![Figura de prueba](Forma_Canonica_Diagonal.png)
 
-Figura 5. Forma Canonica Diagonal.
+Figura 5. Forma Canónica Diagonal.
 
 En la Figura 5, se observa que los polos deben ubicarse a lo largo de toda la diagonal. La matriz de entrada se completa con el valor 1.
 
 
 ![Figura de prueba](Forma_Canonica_Diagonal_Salida.png)
 
-Figura 6. Forma Canonica Diagonal - Salida.
+Figura 6. Forma Canónica Diagonal - Salida.
 
 En la matriz de salida (Figura 6), se muestran los valores de las fracciones parciales, obtenidos a partir de la separación de los polos.
 
+## Ejemplo
+### Forma Canónica Controlable
 
+$$G_{(z)} = \frac{z + 1}{z^{2} + 1.3z + 0.4}$$
 
 
 
