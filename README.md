@@ -115,17 +115,76 @@ $$Y(z) = C((zI - A)^{-1}BU(z)) + DU(z)  \to \frac{Y(z)}{U(z)} = C((zI - A)^{-1}B
 
 ## Ejemplo 2
 
+![Figura de prueba](Ej_2_1.png)
+
+Figura 10. XXXXX.
+
+Se aplica la ecuación calculada anteriormente obteniendo:
+
+![Figura de prueba](Ej_2_2.png)
+
+Figura 11. XXXXX.
+
+Se realzia el cálculo de la inversa por cofactores:
+
+![Figura de prueba](Ej_2_3.png)
+
+Figura 12. XXXXX.
 
 
+Resolviendo la matriz de cofactores:
 
 
+![Figura de prueba](Ej_2_4.png)
+
+Figura 13. XXXXX.
 
 
+Cálculo de la transpuesta:
+
+![Figura de prueba](Ej_2_5.png)
+
+Figura 14. XXXXX.
 
 
+Cálculo del determinante:
+
+![Figura de prueba](Ej_2_6.png)
+
+Figura 15. XXXXX.
 
 
+Retomando los resultados:
 
+![Figura de prueba](Ej_2_7.png)
+
+Figura 16. XXXXX.
+
+A partir de la ecuación presentada en la Figura 16 se obtiene:
+
+![Figura de prueba](Ej_2_8.png)
+
+Figura 17. XXXXX.
+
+Donde se realiza multiplicación matricial:
+
+$$(1)(z + \frac{B}{M}) + (0)(-\frac{K}{M}) = z + \frac{B}{M})$$
+$$(1)(1) + (0)(z) = 1$$
+
+
+Producto entre matrices:
+![Figura de prueba](Ej_2_9.png)
+
+Figura 18. XXXXX.
+
+$$(z + \frac{B}{M})(0) + (1)(\frac{1}{M}) = \frac{1}{M}$$
+
+Y se obtiene:
+![Figura de prueba](Ej_2_10.png)
+
+Figura 19. XXXXX.
+
+Coincide que el sistema tiene 2 variables de estado, se debe tener un polinomio de segundo orden.
 
 # Conclusiones
 1. La forma canónica controlable y la forma observable son equivalentes en cuanto a su respuesta. Sus características, al estructurar las matrices, facilitan ciertos cálculos.
