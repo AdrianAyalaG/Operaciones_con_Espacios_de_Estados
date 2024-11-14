@@ -75,7 +75,7 @@ En la matriz de salida (Figura 6), se muestran los valores de las fracciones par
 
 $$G_{(z)} = \frac{z + 1}{z^{2} + 1.3z + 0.4}$$
 
-
+![Figura de prueba](Forma_Canonica_Diagonal_Salida.png)
 
 
 # Conclusiones
