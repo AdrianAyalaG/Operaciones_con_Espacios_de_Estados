@@ -54,6 +54,8 @@ Figura 4. Forma Canonica Observable - Salida.
 ### Forma Canónica Diagonal
 No se trabaja directamente con los coeficientes de la función de transferencia, sino que se determinan directamente los polos de la misma.
 
+$$ P_1 = z_1; P_2 = z_2; \cdots ; P_n = z_n$$
+
 ![Figura de prueba](Forma_Canonica_Diagonal.png)
 
 Figura 5. Forma Canonica Diagonal.
