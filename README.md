@@ -22,26 +22,30 @@ $$y_{k} = [Numerador][X_{n}(k)]$$
 
 $$ G_{(z)} = \frac{b_{0}z^{n} {\color{Green}+ b_{1}}z^{n-1} + \cdots {\color{Green}+ b_{n-1}}z {\color{Green}+ b_{n}}}{z^{n} {\color{Green}+ a_{1}}z^{n-1} + \cdots {\color{Green}+ a_{n-1}}z {\color{Green}+ a_{n}}} $$
 
-A partir de la función de transferencia previamente obtenida, se puede determinar la forma canónica controlable de la siguiente manera:
+A partir de la función de transferencia obtenida, se puede determinar la forma canónica controlable. En este proceso, se observa un cambio de signo en las variables del denominador (destacadas en verde).
 
 ![Figura de prueba](Forma_Canonica_Controlable.png)
 
 Figura 1. Forma Canonica Controlable.
 
-Se observa el cambio de signo de las variables del denominador.
+Para la salida se toman los valores del numerador sin cambiar el singo y se multipla por el vector de variables de estado.
 
 ![Figura de prueba](Forma_Canonica_Controlable_Salida.png)
 
 Figura 2. Forma Canonica Controlable - Salida.
 
-Para la salida se toman los valores del numerador sin cambiar el singo y se multipla por el vector de variables de estado.
-
 
 ### Forma Canónica Observable
+Este sistema es equivalente a la Forma Canonica Controlable.
+
+$$G_{(z)} = \frac{b_{0}z^{n} + {\color{Blue}b_{1}}z^{n-1} + \cdots +{\color{Blue}b_{n-1}}z + {\color{Blue}b_{n}}}{z^{n} {\color{Green}+ a_{1}}z^{n-1} + \cdots {\color{Green}+ a_{n-1}}z {\color{Green}+ a_{n}}} $$
 
 ![Figura de prueba](Forma_Canonica_Observable.png)
 
 Figura 3. Forma Canonica Observable.
+
+En la Figura 3 se observa que los ceros del sistema (numerador) ya no aparecen en la ecuación de salida, sino en la ecuación de entrada.
+
 
 ![Figura de prueba](Forma_Canonica_Observable_Salida.png)
 
@@ -50,16 +54,19 @@ Figura 4. Forma Canonica Observable - Salida.
 
 ![Figura de prueba](Forma_Canonica_Diagonal.png)
 
-Figura 3. Forma Canonica Diagonal.
+Figura 5. Forma Canonica Diagonal.
 
 ![Figura de prueba](Forma_Canonica_Diagonal_Salida.png)
 
-Figura 4. Forma Canonica Diagonal - Salida.
+Figura 6. Forma Canonica Diagonal - Salida.
 
 
 
 
 
+# Conclusiones
+1. La forma canónica controlable y la forma observable son equivalentes en cuanto a su respuesta. Sus características, al estructurar las matrices, facilitan ciertos cálculos.
+2. 
 
 # Referencias
 [1]. “ss - Modelo de espacio de estados - MATLAB - MathWorks América Latina”, Mathworks.com. [En línea]. Disponible en: https://la.mathworks.com/help/control/ref/ss.html. [Consultado: 02-nov-2024].
