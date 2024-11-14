@@ -97,9 +97,20 @@ Al ser una función de segundo orden se obtienen matrices 2x2.
 ## Espacio de Estados  a Función de Transferencia
 El proceso consiste en obtener la función de transferencia a partir de la representación en espacio de estados.
 
+$$x(k +1) = Ax(k) + Bu(u)$$
+$$y(k) = Cx(k) + Du(k)$$
 
+* Se aplica la transformada Z, como se esta buscando la función de transferencia todas las condiciones iniciales son 0:
+  
+$$zX(z) = AX(z) + BU(z)$$
+$$Y(z) = CX(z) + DU(z)$$
 
+* Se despeja salida sobre entrada:
 
+$$zX(z) - AX(z) = BU(z)$$
+$$(zI - A)X(z) = BU(z)$$
+$$X(z) = (zI - A)^{-1}BU(z)$$
+$$Y(z) = C((zI - A)^{-1}BU(z)) + DU(z)  \to  Y(z) = CX(z) + DU(z)$$
 
 
 
