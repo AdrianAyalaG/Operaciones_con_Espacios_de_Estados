@@ -71,11 +71,30 @@ Figura 6. Forma Canónica Diagonal - Salida.
 En la matriz de salida (Figura 6), se muestran los valores de las fracciones parciales, obtenidos a partir de la separación de los polos.
 
 ## Ejemplo
-### Forma Canónica Controlable
 
 $$G_{(z)} = \frac{z + 1}{z^{2} + 1.3z + 0.4}$$
+### Forma Canónica Controlable
 
-![Figura de prueba](Forma_Canonica_Diagonal_Salida.png)
+![Figura de prueba](Ejemplo_Controlable.png)
+Figura 7. Forma Canónica Controlable - Ejemplo.
+
+### Forma Canónica Observable
+
+![Figura de prueba](Ejemplo_Observable.png)
+Figura 8. Forma Canónica Observable - Ejemplo.
+
+### Forma Canónica Diagonal
+
+![Figura de prueba](Ejemplo_Diagonal.png)
+Figura 9. Forma Canónica Diagonal - Ejemplo.
+
+
+
+
+
+
+
+
 
 
 # Conclusiones
