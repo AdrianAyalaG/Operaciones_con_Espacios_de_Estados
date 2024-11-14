@@ -71,7 +71,7 @@ Figura 6. Forma Canónica Diagonal - Salida.
 
 En la matriz de salida (Figura 6), se muestran los valores de las fracciones parciales, obtenidos a partir de la separación de los polos.
 
-## Ejemplo
+## Ejemplo 1
 
 $$G_{(z)} = \frac{z + 1}{z^{2} + 1.3z + 0.4}$$
 ### Forma Canónica Controlable
@@ -110,7 +110,20 @@ $$Y(z) = CX(z) + DU(z)$$
 $$zX(z) - AX(z) = BU(z)$$
 $$(zI - A)X(z) = BU(z)$$
 $$X(z) = (zI - A)^{-1}BU(z)$$
-$$Y(z) = C((zI - A)^{-1}BU(z)) + DU(z)  \to  Y(z) = CX(z) + DU(z)$$
+$$Y(z) = CX(z) + DU(z)   \to   Y(z) = C((zI - A)^{-1}BU(z)) + DU(z)$$
+$$Y(z) = C((zI - A)^{-1}BU(z)) + DU(z)  \to \frac{Y(z)}{U(z)} = C((zI - A)^{-1}B) + D$$
+
+## Ejemplo 2
+
+
+
+
+
+
+
+
+
+
 
 
 
