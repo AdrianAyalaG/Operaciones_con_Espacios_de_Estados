@@ -154,7 +154,7 @@ Cálculo del determinante:
 Figura 15. XXXXX.
 
 
-Retomando los resultados:
+### Retomando los resultados:
 
 ![Figura de prueba](Ej_2_7.png)
 
@@ -162,25 +162,31 @@ Figura 16. XXXXX.
 
 A partir de la ecuación presentada en la Figura 16 se obtiene:
 
-![Figura de prueba](Ej_2_8.png)
+![Figura de prueba](Ej_2_10.png)
 
 Figura 17. XXXXX.
 
-Donde se realiza multiplicación matricial:
+Se desarrolla la inversa, obteniendo:
 
-$$(1)(z + \frac{B}{M}) + (0)(-\frac{K}{M}) = z + \frac{B}{M})$$
+![Figura de prueba](Ej_2_8.png)
+
+Figura 18. XXXXX.
+
+Ahora se realiza la multiplicación matricial:
+
+$$(1)(z + \frac{B}{M}) + (0)(-\frac{K}{M}) = z + \frac{B}{M}$$
 $$(1)(1) + (0)(z) = 1$$
 
 
 Producto entre matrices:
-![Figura de prueba](Ej_2_9.png)
 
-Figura 18. XXXXX.
+
 
 $$(z + \frac{B}{M})(0) + (1)(\frac{1}{M}) = \frac{1}{M}$$
 
 Y se obtiene:
-![Figura de prueba](Ej_2_10.png)
+
+![Figura de prueba](Ej_2_9.png)
 
 Figura 19. XXXXX.
 
