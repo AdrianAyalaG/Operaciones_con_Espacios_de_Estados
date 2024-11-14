@@ -160,7 +160,7 @@ Figura 15. XXXXX.
 
 Figura 16. XXXXX.
 
-A partir de la ecuación presentada en la Figura 16 se obtiene:
+Se resuelven las siguientes matrices:
 
 ![Figura de prueba](Ej_2_10.png)
 
@@ -177,6 +177,10 @@ Ahora se realiza la multiplicación matricial:
 $$(1)(z + \frac{B}{M}) + (0)(-\frac{K}{M}) = z + \frac{B}{M}$$
 $$(1)(1) + (0)(z) = 1$$
 
+![Figura de prueba](Ej_2_11.png)
+
+Figura 19. XXXXX.
+
 
 Producto entre matrices:
 
@@ -188,7 +192,7 @@ Y se obtiene:
 
 ![Figura de prueba](Ej_2_9.png)
 
-Figura 19. XXXXX.
+Figura 20. XXXXX.
 
 Coincide que el sistema tiene 2 variables de estado, se debe tener un polinomio de segundo orden.
 
