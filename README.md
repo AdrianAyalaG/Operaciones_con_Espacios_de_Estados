@@ -117,19 +117,19 @@ $$Y(z) = C((zI - A)^{-1}BU(z)) + DU(z)  \to \frac{Y(z)}{U(z)} = C((zI - A)^{-1}B
 
 ![Figura de prueba](Ej_2_1.png)
 
-Figura 10. XXXXX.
+Figura 10. Matrices.
 
 Se aplica la ecuación calculada anteriormente obteniendo:
 
 ![Figura de prueba](Ej_2_2.png)
 
-Figura 11. XXXXX.
+Figura 11. Fórmula general.
 
 Se realzia el cálculo de la inversa por cofactores:
 
 ![Figura de prueba](Ej_2_3.png)
 
-Figura 12. XXXXX.
+Figura 12. Inversa y Adjunta.
 
 
 Resolviendo la matriz de cofactores:
@@ -137,40 +137,40 @@ Resolviendo la matriz de cofactores:
 
 ![Figura de prueba](Ej_2_4.png)
 
-Figura 13. XXXXX.
+Figura 13. Resolviendo por cofactores.
 
 
 Cálculo de la transpuesta:
 
 ![Figura de prueba](Ej_2_5.png)
 
-Figura 14. XXXXX.
+Figura 14. Transpuesta de matriz.
 
 
 Cálculo del determinante:
 
 ![Figura de prueba](Ej_2_6.png)
 
-Figura 15. XXXXX.
+Figura 15. Determinantes.
 
 
 ### Retomando los resultados:
 
 ![Figura de prueba](Ej_2_7.png)
 
-Figura 16. XXXXX.
+Figura 16. Respuesta inicial.
 
 Se resuelven las siguientes matrices:
 
 ![Figura de prueba](Ej_2_10.png)
 
-Figura 17. XXXXX.
+Figura 17. Descomposición de matrices.
 
 Se desarrolla la inversa, obteniendo:
 
 ![Figura de prueba](Ej_2_8.png)
 
-Figura 18. XXXXX.
+Figura 18. Resolviendo la Inversa.
 
 Ahora se realiza la multiplicación matricial:
 
@@ -179,12 +179,10 @@ $$(1)(1) + (0)(z) = 1$$
 
 ![Figura de prueba](Ej_2_11.png)
 
-Figura 19. XXXXX.
+Figura 19. Multiplicación entre matrices.
 
 
 Producto entre matrices:
-
-
 
 $$(z + \frac{B}{M})(0) + (1)(\frac{1}{M}) = \frac{1}{M}$$
 
@@ -192,7 +190,7 @@ Y se obtiene:
 
 ![Figura de prueba](Ej_2_9.png)
 
-Figura 20. XXXXX.
+Figura 20. Ecuación Final.
 
 Coincide que el sistema tiene 2 variables de estado, se debe tener un polinomio de segundo orden.
 
@@ -214,7 +212,7 @@ Forma Canónica Observable
 Figura 22. XXXXX.
 
 
-## Espacio de Estados  a Función de Transferencia
+### Espacio de Estados  a Función de Transferencia
 
 
 ![Figura de prueba](Ej_2_14.png)
