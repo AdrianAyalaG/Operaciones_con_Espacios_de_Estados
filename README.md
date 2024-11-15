@@ -222,8 +222,11 @@ Figura 23. XXXXX.
 
 # Conclusiones
 1. La forma canónica controlable y la forma observable son equivalentes en cuanto a su respuesta. Sus características, al estructurar las matrices, facilitan ciertos cálculos.
-2. 
+2. La versatilidad del enfoque de espacio de estados en sistemas de control radica en su capacidad para modelar y analizar sistemas dinámicos complejos a través de sus variables internas. Este enfoque proporciona una perspectiva detallada y flexible, lo cual simplifica tanto el análisis como el diseño de controladores.
+3. Los polos del sistema, obtenidos a partir de las matrices de estado, son esenciales para comprender su estabilidad y comportamiento. Esta información es crucial para diseñar sistemas que mantengan la estabilidad y respondan de manera adecuada ante perturbaciones.
 
 # Referencias
 [1]. “ss - Modelo de espacio de estados - MATLAB - MathWorks América Latina”, Mathworks.com. [En línea]. Disponible en: https://la.mathworks.com/help/control/ref/ss.html. [Consultado: 02-nov-2024].
+
+[2]. “AulasVirtualesECCI: Entrar al sitio”, Edu.co. [En línea]. Disponible: https://aulas.ecci.edu.co/course/view.php?id=9304 . [Consulta: 09 de Octubre de 2024].
 
