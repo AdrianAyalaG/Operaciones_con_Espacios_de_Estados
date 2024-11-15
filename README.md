@@ -211,9 +211,15 @@ Forma Canónica Observable
 
 ![Figura de prueba](Ej_2_13.png)
 
-Figura 21. XXXXX.
+Figura 22. XXXXX.
 
 
+## Espacio de Estados  a Función de Transferencia
+
+
+![Figura de prueba](Ej_2_14.png)
+
+Figura 23. XXXXX.
 
 
 # Conclusiones
