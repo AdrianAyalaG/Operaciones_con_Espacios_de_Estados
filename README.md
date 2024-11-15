@@ -71,7 +71,7 @@ Figura 6. Forma Canónica Diagonal - Salida.
 
 En la matriz de salida (Figura 6), se muestran los valores de las fracciones parciales, obtenidos a partir de la separación de los polos.
 
-## Ejemplo 1
+## 💡Ejemplo 1
 
 $$G_{(z)} = \frac{z + 1}{z^{2} + 1.3z + 0.4}$$
 ### Forma Canónica Controlable
@@ -113,7 +113,7 @@ $$X(z) = (zI - A)^{-1}BU(z)$$
 $$Y(z) = CX(z) + DU(z)   \to   Y(z) = C((zI - A)^{-1}BU(z)) + DU(z)$$
 $$Y(z) = C((zI - A)^{-1}BU(z)) + DU(z)  \to \frac{Y(z)}{U(z)} = C((zI - A)^{-1}B) + D$$
 
-## Ejemplo 2
+## 💡Ejemplo 2
 
 ![Figura de prueba](Ej_2_1.png)
 
@@ -194,7 +194,7 @@ Figura 20. Ecuación Final.
 
 Coincide que el sistema tiene 2 variables de estado, se debe tener un polinomio de segundo orden.
 
-## Ejercicios
+## 📚Ejercicios
 
 $$G_{(z)} = \frac{z + 1}{z^{2} + 10.6z + 4.9}$$
 
