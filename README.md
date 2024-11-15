@@ -198,6 +198,20 @@ Coincide que el sistema tiene 2 variables de estado, se debe tener un polinomio 
 
 ## Ejercicios
 
+$$G_{(z)} = \frac{z + 1}{z^{2} + 10.6z + 4.9}$$
+
+Forma Canónica Controlable
+
+![Figura de prueba](Ej_2_12.png)
+
+Figura 21. XXXXX.
+
+
+Forma Canónica Observable
+
+![Figura de prueba](Ej_2_13.png)
+
+Figura 21. XXXXX.
 
 
 
