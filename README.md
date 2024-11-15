@@ -196,6 +196,12 @@ Figura 20. XXXXX.
 
 Coincide que el sistema tiene 2 variables de estado, se debe tener un polinomio de segundo orden.
 
+## Ejercicios
+
+
+
+
+
 # Conclusiones
 1. La forma canónica controlable y la forma observable son equivalentes en cuanto a su respuesta. Sus características, al estructurar las matrices, facilitan ciertos cálculos.
 2. 
